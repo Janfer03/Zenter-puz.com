@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+/*Menú color*/
+.Menú{
+  padding-bottom: 70px;
+  background-color: #1867a9;
+  
+  }
+  body{
+    background-color: #1b1b1b;
+  
+  }
+  .Navegació{
+    margin-right: 10%;
+    padding-top: 40px;
+    
+  }
+  
+  .Navegació > a{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  .Navegació > a:hover{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: #1c75bdb4;
+  }
+    
+  .Logo{
+    float: left;
+    margin-right: 75px;
+    margin-left: 20px;
+        
+  }
+  .Usuari{
+    float: right;
+    margin-left: 40px;
+    
+  }
+  
+  #Sobretaula-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 30%;
+  }
+  #Portàtil-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 38%;
+  }
+  .Portàtil{
+    margin-left:30%;
+    padding: 40px;
+  }
+  .Sobretaula{
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 40px;
+  }
+  
+  #Garantía{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+  #Garantía-text{
+    
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #ffffff;
+      margin-top: 40px;
+      margin-left: 20%;
+  }
+  #Garantía{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-left: 20%;
+    
+  }
+  .Garantía-img{
+      margin-top: 40px;
+      margin-left: 20%;
+      margin-bottom: 30px;  
+    }
+  
+   #Mètodes-de-pagament{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 20%;
+    
+  } 
+  .Mètodes-img{
+      margin-top: 40px;
+      margin-left: 20%;
+      
+  }
+  
+  #Comprovacions{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+  .Comprovacions-img{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 40px;
+  }
+  footer{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    border: solid #f1f1f1 1px;
+    padding-bottom: 20px ;
+  
+  }
