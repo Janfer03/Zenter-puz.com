@@ -52,32 +52,26 @@
   
 }
 
-.taula{
-  float: left;
-  margin-left: 90px;
-  padding-top: 20px;
-  margin-bottom: 50px;
-}
 
 /*Qui som- text principal*/
 .titulo1{
-  font-size: 33px;
+  font-size: 28px;
   margin-bottom: 10%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 8%;
   float: left;
   color: #ffffff;
+  margin-right: 90px;
+  margin-left: -15%;
   
 }
 .articulo1{
   font-size: 20px;
-  padding-left: 15%;
-  float: right;
-  padding-top: 1%;
+  padding-top: 6%;  
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 18px;
-  margin-right: 10%;
+  padding-right: 2%;
   color: #ffffff;
+  display: inline-flexbox;
   
 }
 
@@ -248,15 +242,16 @@ footer{
 }
 
 
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 425px) {
+    .Menú{
+      margin-right: -100%;
+    }
   .titulo1{
-    width: 100%;
-    margin-right: 50px;
+    margin-left: 30%;
   }
 
   .articulo1{
-    width: 100%;
+    
     
   }
 
@@ -291,12 +286,14 @@ footer{
     margin-left: -10%;
     height: 30px;
   }
-
+  .Lloc{
+    margin-left: -5px;
+  }
   .Localització{
-    margin-left: -120%;
+    
   }
   .Ubicació{
-    margin-left: -200%;
+    
     width: 60px;
     height: 40px;
   }
