@@ -243,15 +243,17 @@ footer{
 
 
 @media only screen and (max-width: 425px) {
+    
     .Menú{
       margin-right: -100%;
     }
   .titulo1{
-    margin-left: 10%;
+    margin-left: 50%;
   }
 
   .articulo1{
-    
+    margin-left: 48%;
+    margin-right: -50%;
     
   }
 
@@ -262,18 +264,19 @@ footer{
     
   }
   .titulo2{
-    margin-right: 40px;  
+    margin-left: 70%;  
   
   }
 
   .titulo3{
-    
+    margin-left: -1px;
   }
 
   .titulo4{
-    
+    margin-left: -1px;
   }
   .titulo5{
+    margin-left: -1px;
     
   }
   .articulos{
@@ -287,20 +290,15 @@ footer{
     height: 30px;
   }
   .Lloc{
-    margin-left: -5px;
+    margin-left: 50px;
+    margin-bottom: 40px;
   }
-  .Localització{
-    
-  }
-  .Ubicació{
-    
-    width: 60px;
-    height: 40px;
-  }
+ 
 
   Footer{
-    margin-top: 80%;
-    width: 100%;
+    margin-top: 30px;
+    margin-right: -100%;
     align-content: center;
+    
   }
 }
