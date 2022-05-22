@@ -246,3 +246,64 @@ footer{
   position: relative;
   border: solid #f1f1f1 1px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    
+  .titulo1{
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .articulo1{
+    width: 100%;
+    
+  }
+
+  .Oferim{
+    font-size: 40px;
+    width: 100%;
+    margin-left: 40%;
+  }
+  .titulo2{
+    
+    margin-left: 24%;
+  }
+
+  .titulo3{
+    margin-left: 32%;
+    margin-top: 50px;
+  }
+
+  .titulo4{
+    margin-left: 25%;
+  }
+  .titulo5{
+    margin-left: 30%;
+  }
+  .articulos{
+    margin-right: 15%;
+    font-size: 25px;
+    
+  }
+  .imagen1{
+    width: 20px;
+    margin-left: -10%;
+    height: 30px;
+  }
+
+  .Localització{
+    margin-left: -120%;
+  }
+  .Ubicació{
+    margin-left: -200%;
+    width: 60px;
+    height: 40px;
+  }
+
+  Footer{
+    margin-top: 80%;
+    width: 100%;
+    align-content: center;
+  }
+}
