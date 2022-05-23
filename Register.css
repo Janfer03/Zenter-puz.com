@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Menú color*/
+.Menú{
+  padding-bottom: 70px;
+  background-color: #1867a9;
+  
+}
+body{
+  background-color: #1b1b1b;
+}
+  
+.Navegació{
+  margin-right: 10%;
+  padding-top: 40px;
+    
+}
+  
+  .Navegació > a{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  .Navegació > a:hover{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    margin-left: 10px;
+    margin-right: 15px; 
+    text-decoration: none;
+    background-color: #1c75bdb4;
+  }
+  .Logo{
+    float: left;
+    margin-right: 75px;
+    margin-left: 20px;
+        
+  }
+.Compte-general{
+  border: #4d4d4dee solid 1px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 140px;
+  margin-bottom: 10%;   
+  
+}
+.Usuari{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: #ffffff;
+
+}
+.Usuari2{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  
+}
+
+.Contrasenya{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.Botó{
+  text-align: center;
+  
+}
+.Botó-crear{
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer{
+  padding-top: 20px;
+  padding-left: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  border: solid #f1f1f1 1px;
+  padding-bottom: 20px ;
+
+}
+
+@media only screen and (max-width: 425px) {
+    
+    
+  .Menú{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .Logo{
+    padding-left: 20%;
+    
+  }
+  .Usuari{
+    padding-left: 5px;
+  }
+
+  .Usuari2{
+    margin-left: 50px;
+    padding-right: 40px;
+    margin-right: 40px;
+  }
+Footer{
+  margin-top: 30px;
+  padding-left: 60px;
+  align-content: center;
+  
+}
+}
