@@ -98,3 +98,30 @@ footer{
 
 }
 
+@media only screen and (max-width: 425px) {
+    
+    
+  .Menú{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .Logo{
+    padding-left: 20%;
+    
+  }
+  .Usuari{
+    padding-left: 5px;
+  }
+
+  .Usuari2{
+    margin-left: 50px;
+    padding-right: 40px;
+    margin-right: 40px;
+  }
+Footer{
+  margin-top: 30px;
+  padding-left: 60px;
+  align-content: center;
+  
+}
+}

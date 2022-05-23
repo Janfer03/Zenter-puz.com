@@ -46,15 +46,7 @@ body{
     margin-left: 20px;
         
   }
-.Compte-general{
-  border: #4d4d4dee solid 1px;
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-bottom: 140px;
-  margin-bottom: 10%;   
-  
-}
+
 
 .Usuari{
   float: right;
@@ -138,8 +130,10 @@ body{
   margin-left: 180px;
 
 }
-
-#Ordinador{
+.Ordinador{
+  display: inline-flex;
+}
+.Ordinador > a{
   padding:16px 16px 16px 16px;
   margin-right: 10px;
   color: #000000;
@@ -153,8 +147,10 @@ body{
   margin-left: 120px;
 }
 
-
-#Portàtil{
+.Portàtil{
+  display: inline-flex;
+}
+.Portàtil > a{
   padding:16px 16px 16px 16px;
   margin-right: 10px;
   color: #000000;
@@ -166,8 +162,10 @@ body{
   float: right;
   margin-top: 20px;
 }
-
-#Tot-en-un{
+  .Tot-en-un{
+    display: inline-flex;
+  }
+.Tot-en-un > a {
   padding:16px 16px 16px 16px;
   margin-right: 10px;
   color: #000000;
@@ -195,4 +193,80 @@ footer {
 
 
 
+@media only screen and (max-width: 425px) {
+    
+    
+  .Menú{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .Logo{
+    padding-left: 20%;
+    
+  }
+  .Usuari{
+    padding-left: 5px;
+  }
 
+  ul.Slider{
+    margin-right: 10px;
+  }
+  .container{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .menu{
+    margin-left: -50%;  
+    margin-right: 10px;
+    margin-top: 10px;
+  }  
+  ul.slider > li > img{
+    width: 350px;
+    height: 220px;
+    margin-right: 10px;
+  }
+  ul.menu > li {
+    margin-right: 10px;
+  }
+  .Ordinador{
+    margin-left: -80%;
+  }
+  .Ordinador > a{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+
+  
+  
+    .Portàtil{
+      margin-left: -30%;
+    }
+  
+  .Portàtil > a{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    
+  }
+  
+  .Tot-en-un {
+    margin-left: -25%;
+    
+    }
+  .Tot-en-un > a{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+  }
+Footer{
+  margin-top: 30px;
+  padding-left: 60px;
+  align-content: center;
+  
+}
+}
