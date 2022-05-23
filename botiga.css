@@ -138,3 +138,75 @@
     padding-bottom: 20px ;
   
   }
+
+
+  @media only screen and (max-width: 425px) {
+    
+    
+    .Menú{
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .Logo{
+      padding-left: 20%;
+      
+    }
+    .Usuari{
+      padding-left: 5px;
+    }
+
+   
+    #Sobretaula-text{
+      margin-top: 90px;
+    }
+    .Sobretaula{
+      margin-left: 5px;
+      margin-top: 10px;
+      
+    }
+    .Sobretaula > a > img{
+      width: 350px;
+      height: 250px;
+    }
+
+    #Portàtil-text{
+      margin-left: 30%;
+
+    }
+    .Portàtil {
+      margin-left: 5px;
+    }
+    .Portàtil > a > img{
+      width: 350px;
+      height: 250px;
+    }
+
+    .Garantía-img{
+      margin-left: 10px;
+    }
+    .Garantía-img > img{
+      width: 400px;
+      height: 180px;
+    }
+    .Mètodes-img{
+      margin-left: 30px;
+    }
+    .Mètodes-img > img{
+      width: 340px;
+      height: 170px;
+    }
+    .Comprovacions-img {
+      margin-left: 30px;
+    }
+    .Comprovacions-img > img{
+      width: 330px;
+      height: 240px;
+      padding-bottom: 115px;
+    }
+    Footer{
+      margin-top: 30px;
+      padding-left: 60px;
+      align-content: center;
+      
+    }
+  }

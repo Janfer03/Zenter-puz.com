@@ -92,3 +92,31 @@ footer{
 }
 
 
+@media only screen and (max-width: 425px) {
+    
+    
+  .Menú{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .Logo{
+    padding-left: 20%;
+    
+  }
+  .Usuari{
+    padding-left: 5px;
+  }
+  .Descomptes{
+    margin-left: 30px;
+  }
+  .Descomptes > a> img{
+    width: 365px;
+    height: 270px;
+  }
+  Footer{
+      margin-top: 30px;
+      padding-left: 60px;
+      align-content: center;
+      
+    }
+  }

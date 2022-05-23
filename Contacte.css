@@ -14,6 +14,7 @@ background-color: #1867a9;
 body{
   background-color: #1b1b1b;
 }
+
 .Navegació{
   margin-right: 10%;
   padding-top: 40px;
@@ -73,15 +74,14 @@ body{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.contacte-text{
+.Contacte-text{
   margin-left: 12%;
-  
   font-size: 20px;
   margin-right: 250px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.Servei-tiquet{
+.Servei-ticket{
   font-size: 17px;
   margin: 40px 0 10px 12%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -102,7 +102,7 @@ body{
   
 }
 
-.llista{
+#llista{
     margin: 10px 250px 10% 5%;
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -124,4 +124,55 @@ footer{
 .Twitter{
   display: flex;
 
+}
+
+
+@media only screen and (max-width: 425px) {
+    
+    
+  .Menú{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .Logo{
+    padding-left: 20%;
+    
+  }
+  .Usuari{
+    padding-left: 5px;
+  }
+  #telefón{
+    width: 233px;
+    height: 243px;
+    margin-left: 70px;
+    padding-bottom: 40px;
+  }
+  .Contacte-ns{
+    margin-left: 20%;
+  }
+  .Contacte-ns > h2{
+    font-size: 30px;
+  }
+  .Contacte-text {
+
+    margin-right: 50px;
+    margin-left: 50px;
+    
+  }
+  .Servei-ticket{
+    margin-left: 20%;
+  }
+  .help-desk{
+    margin-left: 20%;
+  }
+
+  #llista{
+    margin-right: 30%;
+  }
+  Footer{
+    margin-top: 30px;
+    padding-left: 60px;
+    align-content: center;
+    
+  }
 }
